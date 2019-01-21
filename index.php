@@ -172,9 +172,9 @@ body {
 
              if($row[1] == $Username && $row[2]== $Password){
                if($Status == 1){
-               header("Location:https://localhost/cms/Homepage.php");
+               header("Location:Homepage.php");
              }else{
-               header("Location:https://localhost/cms/agent_order_cargo.php");
+               header("Location:agent_order_cargo.php");
              }
              }else{
            		echo"Please insert the correct username";
