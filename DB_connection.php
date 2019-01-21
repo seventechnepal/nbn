@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$db_name = 'dacc';
+$host = 'nabinpdl.mysql.database.azure.com';
+$username = 'nabin@nabinpdl';
+$password = 'I@mN@binpoudel';
+$db_name = 'nabinpdl';
 
 //Establishes the connection
 $conn = mysqli_init();
