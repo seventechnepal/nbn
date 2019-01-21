@@ -172,9 +172,9 @@ body {
 
              if($row[1] == $Username && $row[2]== $Password){
                if($Status == 1){
-               header("Location:Homepage.php");
+               header("Location:https://np000043.azurewebsites.net/Homepage.php");
              }else{
-               header("Location:agent_order_cargo.php");
+               header("Location:https://np000043.azurewebsites.net/agent_order_cargo.php");
              }
              }else{
            		echo"Please insert the correct username";
